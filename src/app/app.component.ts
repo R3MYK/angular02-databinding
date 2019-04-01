@@ -10,4 +10,8 @@ export class AppComponent {
   // Interpolación
   titulo: any = "Hola mundo codigo interactivo";
   datos: any = {nombre: "Nicolas", Apellido: "Martinez", Edad: 30, Documento: "17059331-6"};
+
+  eventoboton(){
+    console.log('Se ejecuto el evento');
+  }
 }
